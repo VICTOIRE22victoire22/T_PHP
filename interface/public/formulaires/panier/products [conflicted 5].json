@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nom": "azazaz",
+        "prix": 122,
+        "qte": 21212
+    },
+    {
+        "id": 2,
+        "nom": "sdsdsd",
+        "prix": 1,
+        "qte": 212212
+    },
+    {
+        "id": 3,
+        "nom": "zeze",
+        "prix": 2,
+        "qte": 212
+    }
+]

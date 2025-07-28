@@ -1,0 +1,68 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+a.active {
+    background-color: #fff;
+    color: #333;
+    padding: 3px 6px;
+    border-radius: 6px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: auto;
+}
+
+/*-------------------------------
+CARDS DES PRODUITS
+-------------------------------*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: lightgrey;
+    margin: 20px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: lightblue;
+    padding: 20px;
+    border: solid 2px #333;
+}
+
+.card__button {
+    margin-top: auto;
+}
+
+.product__card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px auto;
+    border: solid 2px #333;
+}

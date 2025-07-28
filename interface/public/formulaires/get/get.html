@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire GET</title>
+    <link rel="stylesheet" href="./formulaire.css">
+</head>
+
+<body>
+    <form class="form" method="get" action="get.php">
+        <div class="form__group">
+            <label class="form__label" for="nom">Nom</label>
+            <input class="form__input" type="text" id="nom" name="nom" required>
+        </div>
+        <div class="form__group">
+            <label class="form__label" for="age">Âge</label>
+            <input class="form__input" type="number" id="age" name="age" required>
+        </div>
+        <button class="form__submit" type="submit">Envoyer</button>
+    </form>
+</body>
+
+</html>

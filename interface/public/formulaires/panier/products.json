@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nom": "Stylo bille bleu",
+        "prix": 1.2,
+        "qte": 150
+    },
+    {
+        "id": 2,
+        "nom": "Carnet A5 lign\u00e9",
+        "prix": 3.5,
+        "qte": 80
+    },
+    {
+        "id": 3,
+        "nom": "Cl\u00e9 USB 32 Go",
+        "prix": 12.99,
+        "qte": 60
+    },
+    {
+        "id": 4,
+        "nom": "Casque audio Bluetooth",
+        "prix": 39.9,
+        "qte": 25
+    },
+    {
+        "id": 5,
+        "nom": "Souris sans fil Logitech",
+        "prix": 19.99,
+        "qte": 40
+    }
+]

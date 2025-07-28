@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"phpserver.port": 1234,
+		"phpserver.relativePath": "",
+		"phpserver.browser": "chrome",
+		"phpserver.autoOpenOnReload": true,
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "BrowserSync",
+				"type": "shell",
+				"command": "browser-sync start --config bs-config.js",
+				"isBackground": true,
+				"options": {
+					"cwd": "${workspaceFolder}"
+				},
+				"problemMatcher": []
+			}
+		]
+	}
+}
